@@ -1,0 +1,116 @@
+/*
+
+@import
+$var
+@mixin & @include
+
+@extend
+
+grouping
+
+*/
+body {
+  overflow: hidden; }
+
+.main .details h2, .main .details h3, .main .notice input, .main .notice button, .social-media li a, .social-media .fa {
+  color: #E3A728; }
+
+.main .notice button, .social-media li a {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out; }
+
+/*
+     ***************** Main ****************
+*/
+.main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.7); }
+  .main .details {
+    margin-top: 90px; }
+  .main .details h2 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Elsie', cursive;
+    margin-top: -15px; }
+  .main .details h3 {
+    margin-top: 54px;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Elsie', cursive; }
+    .main .details h3 span {
+      font-size: 30px;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase; }
+  .main .notice {
+    text-align: center;
+    margin-top: 68px; }
+  .main .notice input {
+    padding: 0 10px;
+    width: 240px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    height: 36px;
+    line-height: 37px;
+    font-family: 'Elsie', cursive;
+    background-color: transparent;
+    border: 1px solid #E3A728; }
+  .main .notice button {
+    background-color: transparent;
+    border: 1px solid #E3A728;
+    padding: 4px;
+    width: 109px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Elsie', cursive;
+    margin-top: 1px; }
+    .main .notice button:hover {
+      background-color: #E3A728;
+      border: none;
+      color: #FFF; }
+
+/*
+     ***************** Background ****************
+*/
+.backGround {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  display: block;
+  min-width: 100%;
+  min-height: 100%; }
+  .backGround img {
+    width: 100%; }
+
+/*
+     ***************** Social-media ****************
+*/
+.social-media {
+  margin-top: 160px;
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin-right: 30px; }
+  .social-media li {
+    float: left;
+    padding: 15px;
+    font-size: 28px; }
+  .social-media li a {
+    text-decoration: none; }
+  .social-media li .fa:hover {
+    font-size: 31px;
+    color: #FADE5F; }
+
+/*# sourceMappingURL=style.css.map */
